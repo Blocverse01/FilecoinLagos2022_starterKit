@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# Build With FIlecoin Starter Kit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Using Moralis
+
+- create a [Moralis](https://moralis.io) account at [https://admin.moralis.io/register](https://admin.moralis.io/register)
+- create a [Moralis](https://moralis.io) server at [https://admin.moralis.io/servers](https://admin.moralis.io/servers)
+- copy .env.example to .env.local.
+- click on view details on your new server to see Server URL and Application ID
+- Replace REACT_APP_MORALIS_SERVER_URL and REACT_APP_MORALIS_APP_ID with your new server's Server URL and Application ID.
 
 ## Available Scripts
 
