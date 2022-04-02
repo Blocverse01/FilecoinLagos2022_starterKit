@@ -30,6 +30,17 @@ export const logOut = async () => {
   console.log("logged out");
 };
 
+/**
+ * A function for connecting a contract with a web3 provider and a signer
+ * sample usage: 
+ * ...
+ * import { contractWithSigner } from "utils/web3User";
+ * const ABI = [
+    "function name() view returns (string)",
+    ...
+  ];
+ * contractWithSigner("0x0b83cd769f1cdd05052bc392ef1ff73bb412c483", ABI).name(); 
+ */
 export const contractWithSigner = async (contractAddress, ABI) => {
   let web3Provider = window.ethereum
     ? await Moralis.enableWeb3()
