@@ -1,11 +1,8 @@
-import { useMoralis } from "react-moralis";
 import Moralis from "moralis";
-const { authenticate, isAuthenticated, isAuthenticating, user, logout } =
-  useMoralis();
-
-export const connectWallet = async (moralisOptions) => {
-  if (!isAuthenticated) {
-    await authenticate({
+const ethers = Moralis.web3Library;
+export const connectWallet = async (moralisOptions = null) => {
+  if (!Moralis.User.current()) {
+    await Moralis.authenticate({
       provider: window.ethereum ? null : "walletConnect",
       ...moralisOptions,
     })
@@ -17,16 +14,11 @@ export const connectWallet = async (moralisOptions) => {
         console.log(error);
       });
   }
-};
-
-export const AuthenticationState = {
-  isAuthenticated: isAuthenticated,
-  isAuthenticating: isAuthenticating,
-  user: user,
+  return Moralis.User.current().get("ethAddress");
 };
 
 export const logOut = async () => {
-  await logout();
+  await Moralis.User.logOut();
   console.log("logged out");
 };
 
