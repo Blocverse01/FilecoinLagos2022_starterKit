@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - create a [Moralis](https://moralis.io) server at [https://admin.moralis.io/servers](https://admin.moralis.io/servers)
 - copy .env.example to .env.local.
 - click on view details on your new server to see Server URL and Application ID
-  ![Screenshot - Moralis server View Details page](https://693457552-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVStbACGLCycg7J5WQ2%2Fuploads%2Fgit-blob-5ff561a93a779cdbf95ef2b1330cd0a257a1565f%2FScreenshot%202022-03-16%20at%2012.03.37%20PM.png?alt=media "Moralis server View Details page")\
+  ![Screenshot - Moralis server View Details page](https://693457552-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVStbACGLCycg7J5WQ2%2Fuploads%2Fgit-blob-5ff561a93a779cdbf95ef2b1330cd0a257a1565f%2FScreenshot%202022-03-16%20at%2012.03.37%20PM.png?alt=media "Moralis server View Details page")
 
 ![Screenshot - Moralis server View Details page](<https://693457552-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-MVStbACGLCycg7J5WQ2%2Fuploads%2Fgit-blob-3633edd71c9f7c8549117b39898d797b7386bd12%2FScreenshot%202022-03-16%20at%2012.05.32%20PM%20(1).png?alt=media> "Moralis server View Details page")
 
