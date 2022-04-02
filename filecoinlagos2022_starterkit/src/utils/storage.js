@@ -1,4 +1,4 @@
-import { Web3Storage } from 'web3.storage';  // use either Web3.torage or NFT.torage
+import { Web3Storage } from 'web3.storage';  // use either Web3.storage or NFT.storage
 import { create } from 'ipfs-http-client';
 import axios from 'axios';
 import { storageApiToken } from '../../config';
